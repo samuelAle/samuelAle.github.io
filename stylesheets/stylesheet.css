@@ -114,7 +114,7 @@ body {
   margin-top: 0; }
 .main-content img {
   max-width: 100%; }
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6, {
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
@@ -254,23 +254,21 @@ body {
 /* MY CUSTOM STYLES */
 
 #nav { 
-    width: 100%; 
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden; 
-    padding-top: 1em;
 }
 
 #nav ul { 
-    list-style: outside none none; 
-    position: relative; 
-    float: left; 
-    display: block; 
-    left: 48%; 
-
-    border: 0px none;
-    outline: 0px none;
-    vertical-align: baseline;
     background: transparent none repeat scroll 0% 0%;
+    border: 0px none;
+    float: left; 
     font-weight: 400;
+    left: 48%; 
+    list-style: outside none none; 
+    outline: 0px none;
+    position: relative; 
 }
 
 .nav-item { 
@@ -279,10 +277,28 @@ body {
     display: block; 
     right: 50%; 
 
-    padding-left: 1em;
-    padding-right: 1em;
-    font-size: 2.5vh;
     text-transform: uppercase;
+}
+
+@media screen and (min-width: 64em) {
+  .nav-item {
+    padding: 3rem 4rem; 
+    font-size: 28px;
+  } 
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .nav-item {
+    padding: 1rem 2rem; 
+    font-size: 18px;
+  } 
+}
+
+@media screen and (max-width: 42em) {
+  .nav-item {
+    padding: 2rem 1rem; 
+    font-size: 10px;
+  } 
 }
 
 .nav::after, .nav::before {
