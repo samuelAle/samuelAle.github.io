@@ -266,23 +266,17 @@ body {
     overflow: hidden; 
 }
 
-#nav ul { 
+#nav ul{ 
     background: transparent none repeat scroll 0% 0%;
     border: 0px none;
-    float: left; 
-    font-weight: 400;
-    left: 48%; 
+    font-weight: 550;
     list-style: outside none none; 
     outline: 0px none;
-    position: relative; 
+    padding-left: 0;
 }
 
 .nav-item { 
-    position: relative; 
-    float: left; 
-    display: block; 
-    right: 50%; 
-
+    display: inline; 
     text-transform: uppercase;
 }
 
