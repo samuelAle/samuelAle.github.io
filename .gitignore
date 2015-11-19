@@ -1,4 +1,5 @@
 *~
 *.swp
 TODO
-blog/.jekyll-metadata
+.jekyll-metadata
+_site
