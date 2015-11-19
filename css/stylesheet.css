@@ -278,10 +278,8 @@ a:hover {
 }
 
 #nav-active a {
-    border-bottom: 30px solid white; 
-    border-left: 30px solid transparent; 
-    border-right: 30px solid transparent; 
-    overflow:hidden;
+    border-bottom: 1.1em solid white; 
+    border-radius: 0.5em;
 }
 
 @media screen and (min-width: 64em) {

@@ -11,8 +11,10 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-      <h2 class="project-tagline">{% if page.desc %}{{ page.desc }}{% else %}{{ site.desc }}{% endif %}</h2>
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{ site.desc }}</h2>
+      <!--h1 class="project-name">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+      <h2 class="project-tagline">{% if page.desc %}{{ page.desc }}{% else %}{{ site.desc }}{% endif %}</h2-->
       <div id="nav">
         <ul>
           <li class="nav-item" {% if page.nav == 'home' %}id="nav-active"{% endif %}>
