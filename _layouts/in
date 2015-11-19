@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Samuel Alebachew</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/css/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Samuel Alebachew</h1>
+      <h2 class="project-tagline">My personal website for blogs, projects, and other information that obviously care about.</h2>
+      <div id="nav">
+        <ul>
+          <li class="nav-item">
+            <a href="/index.html" title="Main Page"><span>Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="/projects" title="View All Projects"><span>Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="/blog" title="View All Blogs"><span>Blog</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="/about" title="Read About Me"><span>About</span></a>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </section>
+    
+    <section class="main-content">
+      <h3><a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome</h3>
+      <p>My name is Samuel Alebachew, a computer engineer with interests spanning over distant subjects from beer, outdoor activities, people/relationships, all STEM fields and especially (obviously) computer science. This page is where I get to show people what I don't know, what I think I know, and what I have done with what I think I know. Surprisingly, you can do a lot with just that much. This page is very new and I will be making several changes quite often. Thanks for stopping by! </p>
+
+      <h3><a id="promoted-items" class="anchor" href="#promoted-items" aria-hidden="true"><span class="octicon octicon-link"></span></a>Promoted Items</h3>
+      <p>Coming soon...</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-credits">Contact me at the following social media sites: TODO</span>
+        <br>
+        <span class="site-footer-credits">This site was built using <a href="https://pages.github.com">GitHub Pages</a> in addition to some custom Sam magic.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
