@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/css/github-light.css" media="screen">
   </head>
   <body>
-    <section class="page-header">
+    <div class="page-header">
       <h1 class="project-name">{{ site.title }}</h1>
       <h2 class="project-tagline">{{ site.desc }}</h2>
       <!--h1 class="project-name">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
@@ -31,12 +31,11 @@
           </li>
         </ul>
       </div>
-    </section>
+    </div>
     
-    <section class="main-content">
+    <div class="main-content">
 
       {{ content }}
-
 
       <footer class="site-footer">
         <span class="site-footer-credits">Contact me at the following social media sites: TODO</span>
@@ -44,7 +43,7 @@
         <span class="site-footer-credits">This site was built using <a href="https://pages.github.com">GitHub Pages</a> in addition to some custom Sam magic.</span>
       </footer>
 
-    </section>
+    </div>
   
   </body>
 </html>

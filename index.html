@@ -11,7 +11,7 @@ nav: home
 
     <ul class="rig">
     {% for post in site.posts %}
-      {% if forloop.index < 3  %}
+      {% if forloop.index <= 3  %}
         <li>
           <a href="{{ post.url }}">
             <img src="{{ post.imageUrl }}" />
