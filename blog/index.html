@@ -11,11 +11,13 @@ nav: blog
 
     <ul class="rig">
     {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">
-          <img src="{{ post.imageUrl }}" />
-          <h3>{{ post.title }}</h3>
-        </a>
-        <p>{{ post.description }}</p>
-      </li>
+      {% if post.type == 'blog' %}
+        <li>
+          <a href="{{ post.url }}">
+            <img src="{{ post.imageUrl }}" />
+            <h3>{{ post.title }}</h3>
+          </a>
+          <p>{{ post.description }}</p>
+        </li>
+      {% endif %}
     {% endfor %}
