@@ -9,15 +9,13 @@ nav: blog
       <p>You found my blogs! Unfortunately I haven't been able to write many blogs lately, but I will very soon. </p>
       <br></br>
 
-    <ul class="rig columns-3">
-      {% for post in site.posts %}
-        <li>
+    <ul class="rig">
+    {% for post in site.posts %}
+      <li>
         <a href="{{ post.url }}">
-          <!--img src="../images/help.jpg"/-->
-          <img src="{{ post.img }}"/>
+          <img src="{{ post.imageUrl }}" />
           <h3>{{ post.title }}</h3>
         </a>
-        <p>{{ post.desc }}</p>
-        </li>
-      {% endfor %}
-    </ul>
+        <p>{{ post.description }}</p>
+      </li>
+    {% endfor %}

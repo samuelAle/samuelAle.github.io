@@ -333,14 +333,17 @@ a:hover {
 
 /* GRID LAYOUT STYLES */
 
+
 ul.rig {
   list-style: none;
   font-size: 0px;
-  margin-left: -2.5%; /* should match li left margin */
+  margin-left: 0%; /* used to be -2.5% to match li left margin */
+  padding-left: 0;
 }
 
 ul.rig li {
   display: inline-block;
+  width: 28%; /* this value + 2.5 should = 33% */
   padding: 10px;
   margin: 0 0 2.5% 2.5%;
   background: #fff;
@@ -358,25 +361,13 @@ ul.rig li img {
   height: auto;
   margin: 0 0 10px;
 }
-ul.rig li a {
+ul.rig li h3 {
   margin: 0 0 5px;
 }
 ul.rig li p {
   font-size: .9em;
   line-height: 1.5em;
   color: #999;
-}
-/* class for 2 columns */
-ul.rig.columns-2 li {
-  width: 47.5%; /* this value + 2.5 should = 50% */
-}
-/* class for 3 columns */
-ul.rig.columns-3 li {
-  width: 30.83%; /* this value + 2.5 should = 33% */
-}
-/* class for 4 columns */
-ul.rig.columns-4 li {
-  width: 22.5%; /* this value + 2.5 should = 25% */
 }
 
 @media (max-width: 480px) {
@@ -394,4 +385,4 @@ ul.rig.columns-4 li {
     width: 100% !important; /* over-ride all li styles */
     margin: 0 0 20px;
   }
-} 
+}
