@@ -386,3 +386,31 @@ ul.rig li p {
     margin: 0 0 20px;
   }
 }
+
+/* FOLLOW ME FOOTER */
+
+.social-media {
+  float: right
+}
+
+.social-media a {
+  background-color: #496661;
+  color: white;
+  color: rgba(255, 255, 255, 0.82);
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: #496661;
+  display: block;
+  float: left;
+  font-size: 1.25em;
+  border-radius: 60px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.social-media i {
+  font-family: FontAwesome;
+  margin-left: .3em
+}
+
