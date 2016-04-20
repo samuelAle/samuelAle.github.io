@@ -11,7 +11,7 @@ nav: blog
 
     <ul class="rig">
     {% for post in site.posts %}
-      {% if post.type == 'blog' %}
+      {% if post.nav == 'blog' %}
         <li>
           <a href="{{ post.url }}">
             <img src="{{ post.imageUrl }}" />

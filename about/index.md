@@ -1,9 +1,7 @@
 ---
-layout: post
-title: TrayBot
-nav: project
-description: Senior robotics capstone project
-imageUrl: /images/traybot-showcase.png
+layout: default
+nav: about
+imageUrl: /images/cs-headshot.jpg
 ---
 
 TrayBot
