@@ -4,49 +4,17 @@ nav: about
 imageUrl: /images/cs-headshot.jpg
 ---
 
-TrayBot
+About Me
 ==============
 
-TrayBot&copy; is a friendly robot designed using a [TurtleBot](http://www.turtlebot.com/)
-robot system in order to enhance your home lifestyle, and any scale of events from house 
-parties to large symposiums. The software hosted here publicly, when configured to a 
-TurtleBot using the robotics framework [ROS](http://wiki.ros.org/), will transform the 
-TurtleBot into a sophisticated TrayBot. A TrayBot can perform the following duties: 
+I've always been the type of person to let my actions do the talking, so writing about myself is quite the task. I am of the millenial generation that grew up with technology as it evolved around us and became a part of our lives. So an interesting way to start this about-me is to show the about me section of my first social media site, MySpace. Please bare with me:
 
-- Navigate through a room while avoiding non-human obstacles in its path
-- Detect people using leg-recognition software via the Kinect
-- Approach people safely, and efficiently to serve them refreshments or whatever you might like to serve.
-- Tell pre-programmed jokes as it moves from guest to guest.
-- Navigate back to a pre-defined refill station when it has run out of refreshments.
+> whuz good, dis yo boi sam (all-about-chu).if you see me im probably fitted n hella fresh. im a nice guy i guess, im laid back, im almost always tryin to be funny so dont always take me seriously, just want to have fun and im not conceited! i dont hate nobody and nobody hates me. im 16 n im black er ethiopian but you probably cant tell and for the record ethiopia wasnt enslaved so the n word dont mean shit to me. n e ways i live in seattle en i go to lindbergh high school, which is probably the boringest school in washington. i dont smoke no stank you, i barely ever drink and hell no to drugz. i get good grades n not because imma nerd juss cuz i got a future. ill die for a lady thats got body humor looks and isnt hella dumb or hella conceited. ther is just one thing that you should know about me... i dont give a shit about what nobody thinks of me or who i hang out wit. comment me and my pics. peace
 
-The TrayBot can be controlled via a web-app interface. The web interface shows a map of 
-the area the TrayBot is using to navigate and serve guests. An operator could manually force 
-the TrayBot to return to a refill station, or manually point out a location for the 
-TrayBot to navigate to. The operator can even drive the TrayBot using the web controls too.
-Some things we would like to add is support for multiple TrayBots in the same location, and
-having configureable settings for the user to be able to define their own jokes and easily
-redefine the TrayBot's internal map of the area its in.
+If you know me today, you're probably having trouble imagining me say those things. What is most interesting about this excerpt from my teenage years is not the fact that I went out of my way to mis-spell every other word, or the drastic change in personality. What is interesting is that even today, I do not disagree with anything that I have said. Yes, that's right. I am always trying to have a laugh whenever circumstance permits, so don't always take me seriously. I have no reservations about my heritage or race. My recreational activities don't include much besides an occasional drink. I am an ambitious person that defies the stereotype of a nerd. And of course I look good...
 
-#####Click for a short presentation of a functional TrayBot
-<a href="http://www.youtube.com/watch?v=yKJAJsvxj6k" target="blank"><img src="https://i.ytimg.com/vi/yKJAJsvxj6k/maxresdefault.jpg"
-alt="TrayBot Presentation" width="240" height="180" border="10" /></a>
 
-## Components
-- TurtleBot 
-- Kinect
-- Flat bottom tray
-- Staples usb scale
-- Linux laptop installed with ROS
-- (Optional) TurtleBot extension stand 
+I was born and raised in Renton, WA as you can tell from the MySpace excerpt unfortunately. However the unfortunate circumstance was offset with the fortunate circumstance of living in a state that was home to large tech companies like Microsoft. This made my career in computer science much more accessible. I am very passionate about computer science and the direction the world is going as a result. I want to be a driving factor or influence that can help advance the world to become even more efficient and solve difficult problems.
 
-## Autumn 2014 Robotics Capstone
-This software was developed for a senior capstone course held at the 
-University of Washington, Seattle. The course objective was to teach the basics 
-of robotics and give students implementation experience with a state-of-the-art 
-mobile robot using the robot programming framework ROS (Robot Operating System). 
-For more information, please visit the course [website](https://sites.google.com/site/cse481au14/)
+If you would like to chat more, feel free to email me at samuel (dot) alebachew at gmail.
 
-## Contributors:
-- [Samuel Alebachew](http://www.samuelale.com)
-- Andy Fu
-- Seth Hampson
