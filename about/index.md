@@ -1,11 +1,13 @@
 ---
 layout: default
 nav: about
-imageUrl: /images/cs-headshot.jpg
+imageUrl: /images/cs_headshot.jpg
+resumeUrl: /docs/resume.pdf
 ---
 
 About Me
 ==============
+![My Face]({{ page.imageUrl}})
 
 I've always been the type of person to let my actions do the talking, so writing about myself is quite the task. I am of the millenial generation that grew up with technology as it evolved around us and became a part of our lives. So an interesting way to start this about-me is to show the about me section of my first social media site, MySpace. Please bare with me:
 
@@ -17,4 +19,6 @@ If you know me today, you're probably having trouble imagining me say those thin
 I was born and raised in Renton, WA as you can tell from the MySpace excerpt unfortunately. However the unfortunate circumstance was offset with the fortunate circumstance of living in a state that was home to large tech companies like Microsoft. This made my career in computer science much more accessible. I am very passionate about computer science and the direction the world is going as a result. I want to be a driving factor or influence that can help advance the world to become even more efficient and solve difficult problems.
 
 If you would like to chat more, feel free to email me at samuel (dot) alebachew at gmail.
+
+Here is my [RESUME]({{ page.resumeUrl }}) if you are curious
 
