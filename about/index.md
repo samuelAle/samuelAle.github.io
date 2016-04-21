@@ -20,5 +20,5 @@ I was born and raised in Renton, WA as you can tell from the MySpace excerpt unf
 
 If you would like to chat more, feel free to email me at samuel (dot) alebachew at gmail.
 
-Here is my [RESUME]({{ page.resumeUrl }}) if you are curious
+Here is my [RESUME]({{ page.resumeUrl }}) if you would like to invite me to work on something cool.
 
