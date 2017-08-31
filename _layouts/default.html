@@ -13,23 +13,23 @@
 
     <!-- GOOGLE ANALYTICS -->
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function(i,s,o,g,r,a,m){
+        i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)
+        },
+        i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-76721951-1', 'auto');
-    ga('send', 'pageview');
-
+      ga('create', 'UA-76721951-1', 'auto');
+      ga('send', 'pageview');
     </script>
-
   </head>
+
   <body>
     <div class="page-header">
       <h1 class="project-name">{{ site.title }}</h1>
       <h2 class="project-tagline">{{ site.desc }}</h2>
-      <!--h1 class="project-name">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-      <h2 class="project-tagline">{% if page.desc %}{{ page.desc }}{% else %}{{ site.desc }}{% endif %}</h2-->
       <div id="nav">
         <ul>
           <li class="nav-item" {% if page.nav == 'home' %}id="nav-active"{% endif %}>
@@ -51,6 +51,25 @@
     <div class="main-content">
 
       {{ content }}
+
+      {% if page.comments %} 
+      <div id="disqus_thread"></div>
+      <script>
+        var disqus_config = function () {
+          this.page.url = {{ site.url }};
+          this.page.identifier = {{ page.id }};
+        };
+
+        // DON'T EDIT BELOW THIS LINE
+        (function() { 
+          var d = document, s = d.createElement('script');
+          s.src = 'https://samuelale.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+
+      {% endif %}
 
       <footer class="site-footer">
 

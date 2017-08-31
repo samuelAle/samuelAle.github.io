@@ -1,6 +1,7 @@
 ---
 layout: default
 nav: about
+comments: true
 imageUrl: /images/cs_headshot.jpg
 resumeUrl: /docs/resume.pdf
 ---
