@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Sample1
 type: project
 description: A sample markdown text file

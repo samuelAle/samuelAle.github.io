@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Strange Ideas
 nav: blog
 description: Shower thoughts and daydreams

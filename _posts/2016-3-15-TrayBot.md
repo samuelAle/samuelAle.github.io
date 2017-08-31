@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: TrayBot
 nav: project
 description: Senior robotics capstone project

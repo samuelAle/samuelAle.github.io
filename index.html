@@ -10,15 +10,16 @@ nav: home
 
       <h3><a id="promoted-items" class="anchor" href="#promoted-items" aria-hidden="true"><span class="octicon octicon-link"></span></a>Promoted Items</h3>
 
-    <ul class="rig">
-    {% for post in site.posts %}
-      {% if forloop.index <= 3  %}
-        <li>
-          <a href="{{ post.url }}">
-            <img src="{{ post.imageUrl }}" />
-            <h3>{{ post.title }}</h3>
-          </a>
-          <p>{{ post.description }}</p>
-        </li>
-      {% endif %}
-    {% endfor %}
+      <ul class="rig">
+      {% for post in site.posts %}
+        {% if forloop.index <= 3  %}
+          <li>
+            <a href="{{ post.url }}">
+              <img src="{{ post.imageUrl }}" />
+              <h3>{{ post.title }}</h3>
+            </a>
+            <p>{{ post.description }}</p>
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
