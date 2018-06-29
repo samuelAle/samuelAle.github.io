@@ -10,7 +10,7 @@ About Me
 ==============
 ![My Face]({{ page.imageUrl}})
 
-I've always been the type of person to let my actions do the talking, so writing about myself is quite the task. I am part of the millenial generation that grew up with technology as it evolved and became an integral part of our daily lives. So an interesting way to start this introduction is to show the "about me" section of my first social media site, MySpace. Please bare with me:
+I've always been the type of person to let my actions do the talking, so writing about myself is quite the task. I am part of the millenial generation that grew up with technology as it evolved and became an integral part of our daily lives. So an interesting way to start this introduction is to show the "about me" section of my first social media site, MySpace. Please bear with me:
 
 > whuz good, dis yo boi sam (all-about-chu).if you see me im probably fitted n hella fresh. im a nice guy i guess, im laid back, im almost always tryin to be funny so dont always take me seriously, just want to have fun and im not conceited! i dont hate nobody and nobody hates me. im 16 n im black er ethiopian but you probably cant tell and for the record ethiopia wasnt enslaved so the n word dont mean shit to me. n e ways i live in seattle en i go to lindbergh high school, which is probably the boringest school in washington. i dont smoke no stank you, i barely ever drink and hell no to drugz. i get good grades n not because imma nerd juss cuz i got a future. ill die for a lady thats got body humor looks and isnt hella dumb or hella conceited. ther is just one thing that you should know about me... i dont give a shit about what nobody thinks of me or who i hang out wit. comment me and my pics. peace
 
