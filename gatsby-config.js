@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Ghost',
     description: 'The professional publishing platform',
-    siteUrl: 'samuelale.com', // full path to blog - no ending slash
+    siteUrl: 'http://samuelale.com', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -47,7 +47,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'samuelale.com',
+        siteUrl: 'http://samuelale.com',
       },
     },
     'gatsby-plugin-emotion',
