@@ -58,7 +58,8 @@ export const SocialLink = css`
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 10px;
+  padding: 13px;
+  width: 4rem;
   color: #fff;
   opacity: 0.8;
 
@@ -67,7 +68,7 @@ export const SocialLink = css`
   }
 
   svg {
-    height: 1.8rem;
+    height: 3rem;
     fill: #fff;
   }
 `;
