@@ -28,7 +28,7 @@ const SiteNavStyles = css`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  overflow-y: hidden;
+  overflow: hidden;
   height: 40px;
   font-size: 1.2rem;
 `;
@@ -36,8 +36,7 @@ const SiteNavStyles = css`
 const SiteNavLeft = styled.div`
   display: flex;
   align-items: center;
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow: hidden;
   -webkit-overflow-scrolling: touch;
   margin-right: 10px;
   padding-bottom: 80px;

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-casper",
-  "description": "Casper for gatsby",
+  "name": "samuel-alebachew-blog",
+  "description": "A blog for Samuel Alebachew",
   "version": "0.0.0",
   "private": true,
-  "author": "Scott Cooper <scttcper@gmail.com>",
+  "author": "Samuel Alebachew <samuel.ale@icloud.com>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
