@@ -37,39 +37,58 @@ const About: React.FC = () => (
           <PostFullContent className="post-full-content">
             <div className="post-content">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo finibus leo,
-                non tempus magna vehicula ac. Maecenas mollis ante finibus pharetra imperdiet.
-                Maecenas in aliquam purus. Nam et massa a nulla fermentum dapibus sit amet in neque.
-                Ut ipsum ipsum, rhoncus a sodales pellentesque, interdum a elit. Nullam aliquam
-                tellus nibh, eget laoreet dui aliquet non. Vestibulum malesuada ante at diam tempus,
-                ac interdum risus scelerisque. Sed ipsum neque, vulputate porta diam eget, consequat
-                blandit nulla. Integer volutpat velit vitae purus lacinia aliquam. Integer bibendum
-                ipsum vitae magna pulvinar, nec vehicula dolor vulputate. Nulla eu massa id orci
-                placerat finibus vel sit amet eros. Vestibulum quis consequat massa. Sed sagittis
-                sollicitudin massa at commodo. Praesent diam nisi, imperdiet posuere eleifend nec,
-                blandit ac massa.
+                I've always been the type of person to let my actions do the talking,
+                so writing about myself is quite the task. I am part of the millenial
+                generation that grew up with technology as it evolved and became an integral part of our daily lives.
+                So an interesting way to start this introduction is to show the "about me"
+                section of my first social media site, MySpace. Please bear with me:
               </p>
+
               <p>
-                Vestibulum semper pretium ipsum nec congue. Ut ac eros nisi. Donec leo sem, aliquam
-                mollis sapien ultrices, dapibus congue diam. Proin viverra dapibus blandit. Ut
-                mauris tellus, tristique id felis vel, venenatis vestibulum nunc. Nam molestie
-                pulvinar nibh, eget egestas augue. Maecenas tellus arcu, mattis ut ipsum non,
-                sollicitudin convallis nunc. Donec nec neque tristique, aliquet lacus id, laoreet
-                nunc. Cras dapibus nisi nulla, ullamcorper faucibus neque suscipit ac. Donec eget
-                orci venenatis justo lobortis volutpat. Proin vel placerat nisl. Integer arcu nunc,
-                sodales eu fringilla non, aliquam non diam. Cras placerat, massa et faucibus
-                pretium, ante elit tincidunt tellus, tristique ultricies velit quam et massa.
+                whuz good, dis yo boi sam (all-about-chu).
+                if you see me im probably fitted n hella fresh.
+                im a nice guy i guess, im laid back, im almost always
+                tryin to be funny so dont always take me seriously,
+                just want to have fun and im not conceited! i dont hate
+                nobody and nobody hates me. im 16 n im black er ethiopian but
+                you probably cant tell and for the record ethiopia wasnt
+                enslaved so the n word dont mean shit to me. n e ways i
+                live in seattle en i go to lindbergh high school,
+                which is probably the boringest school in washington.
+                i dont smoke no stank you, i barely ever drink and hell no to drugz.
+                i get good grades n not because imma nerd juss cuz i got a future.
+                ill die for a lady thats got body humor looks and isnt
+                hella dumb or hella conceited. ther is just one thing that you should know about me...
+                i dont give a shit about what nobody thinks of me or who i hang out wit. comment me and my pics. peace
               </p>
+
               <p>
-                In nunc lacus, dapibus vitae lacus sit amet, efficitur iaculis neque. Suspendisse ut
-                tellus quis leo vestibulum tincidunt. Aenean nec enim ac dolor lacinia semper. Ut
-                sed laoreet libero. Nunc elementum sollicitudin accumsan. Nunc eu augue neque. Proin
-                a tortor nibh. Cras eu nisl ornare sapien feugiat pellentesque. Mauris dignissim vel
-                quam eu pellentesque. Integer sit amet posuere quam, eu ullamcorper odio. Nullam a
-                lacus tempus sapien dignissim ullamcorper. In hac habitasse platea dictumst. Proin
-                quis massa aliquam, feugiat tortor sit amet, tincidunt urna. Donec posuere pulvinar
-                lectus, ac semper ipsum vulputate quis.
+                If you know me today, you're probably having trouble imagining me say those things.
+                What is most interesting about this excerpt from my teenage years is
+                not the fact that I went out of my way to misspell every other word,
+                or the drastic change in personality. What is interesting is that even today,
+                I do not disagree with anything that I have said. Yes, that's right.
+                I am always trying to have a laugh whenever circumstance permits, so don't always take me seriously.
+                I have no reservations about my heritage or race. 
+                My recreational activities don't include much besides an occasional drink.
+                I am an ambitious person that defies the stereotype of a nerd.
+                And of course I look good...
               </p>
+
+              <p>
+                I was born and raised in Renton where, unfortunately, I wasn't surround by the best of influences
+                (as you may be able to tell from the MySpace excerpt).
+                However the unfortunate circumstance was offset with the fortunate circumstance of
+                living in a state that was home to large STEM companies like Microsoft, Amazon & Boeing.
+                This made my career in computer science much more accessible.
+                I am very passionate about computer science and the direction the world is going as a result of its practice.
+                I want to be a driving factor or influence that can help advance the world to become
+                even more efficient and solve difficult problems.
+              </p>
+
+              <p>If you would like to chat more, feel free to email me at samuel (dot) alebachew at gmail.</p>
+
+              </p>Here is my (probably out-of-date) [resume] if you would like to invite me to work on something cool.</p>
             </div>
           </PostFullContent>
         </article>
