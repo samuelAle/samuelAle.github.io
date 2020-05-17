@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{iQfj:function(a,t,e){"use strict";e.r(t);var n=e("q1tI"),o=e.n(n),c=e("Bl7J"),l=e("xw5c");t.default=function(a){a.data;var t=a.pageContext,e=t.posts,n=t.tagName;return o.a.createElement(c.a,null,o.a.createElement("h1",null,"Posts about ",n),o.a.createElement(l.a,{data:e}))}}}]);
+//# sourceMappingURL=component---src-templates-single-tag-index-js-971836d93051e326a104.js.map
