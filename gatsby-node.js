@@ -63,7 +63,6 @@ exports.createPages = ({ graphql, actions }) => {
           edges {
             node {
               id
-              excerpt
               fields {
                 slug
               }
@@ -71,6 +70,7 @@ exports.createPages = ({ graphql, actions }) => {
                 title
                 date(formatString: "DD MMMM, YYYY")
                 tags
+                description
               }
             }
           }

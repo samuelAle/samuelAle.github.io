@@ -31,7 +31,7 @@ export default ({ data }) => {
             <PostLink to={node.fields.slug}>
               <PostTitle>{node.frontmatter.title} </PostTitle>
             </PostLink>
-            <p>{node.excerpt}</p>
+            <p>{node.frontmatter.description}</p>
             <hr />
           </div>
         )
