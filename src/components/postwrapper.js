@@ -8,17 +8,18 @@ export const PostWrapper = styled.div`
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
 
-  p {
-    margin-bottom: 1rem;
+  li {
+      margin-bottom: 0;
   }
 
-  li {
+  li, blockquote {
     ul, ol, p {
-      margin-block-start: 0em;
-      margin-block-end: 0em;
+      margin-block-start: 0;
+      margin-block-end: 0;
+      margin-bottom: 0;
+      font-size: 14px;
     }
     margin-top: 0;
-    margin-bottom: 0;
   }
 
   @media (max-width: 414px) {

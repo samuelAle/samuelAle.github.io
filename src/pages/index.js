@@ -12,7 +12,12 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: {
+        frontmatter: { draft: { eq: false } }
+      }
+    ) {
       totalCount
       edges {
         node {
@@ -25,6 +30,7 @@ export const query = graphql`
             date(formatString: "DD MMMM, YYYY")
             tags
             description
+            draft
           }
         }
       }

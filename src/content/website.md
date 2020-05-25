@@ -3,6 +3,7 @@ title: 'Free Blogging; with Jekyll and Gatsby'
 date: '2016-04-20'
 tags: ['Blog', 'Jekyll']
 description: 'A walk-through of how I built this website.'
+draft: false
 ---
 
 For a long time, I wanted to make my own website. I wanted to have a section of the internet that was all about me and the things I am passionate about. Social media didn't feel personal enough and there wasn't enough space in Facebook's datacenter for my ego (jk). Even as a software developer in a steady job, there were several things in the way of having a decent website:

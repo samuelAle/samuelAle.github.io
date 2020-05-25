@@ -3,6 +3,7 @@ title: 'Traybot; a refreshing spin on robotics'
 date: '2016-03-15'
 tags: ['Robotics', 'Computer Vision']
 description: 'Have you ever hosted a party, but been too busy serving guests to enjoy it yourself?'
+draft: false
 ---
 
 Have you ever hosted a party, but been too busy serving guests to enjoy it yourself?
