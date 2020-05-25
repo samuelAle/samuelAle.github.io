@@ -43,6 +43,8 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          'gatsby-remark-mermaid',
+          'gatsby-remark-responsive-iframe',
           {
             resolve: 'gatsby-remark-prismjs',
             options: {
@@ -53,7 +55,7 @@ module.exports = {
       }
     },
     'gatsby-plugin-offline',
-    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components'
   ]
 }

@@ -18,8 +18,8 @@ export default ({ data }) => {
       <PostWrapper>
         <span className="datetime">{post.frontmatter.date}</span>
         <h1>{post.frontmatter.title}</h1>
+        <hr/>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr />
         <p>
           <StyledTag>Tags</StyledTag>: <PostTags tags={post.frontmatter.tags} />
         </p>

@@ -3,8 +3,23 @@ import styled from 'styled-components'
 export const PostWrapper = styled.div`
   margin: auto;
   padding: 30px;
-  // max-width: 720px;
+  max-width: 800px;
   font-size: 14px;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  li {
+    ul, ol, p {
+      margin-block-start: 0em;
+      margin-block-end: 0em;
+    }
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
   @media (max-width: 414px) {
     padding: 70px 16px 0;

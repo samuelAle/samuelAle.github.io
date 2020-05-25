@@ -1,9 +1,11 @@
 import React from 'react'
 
 import Layout from '../components/layout'
+import { PostWrapper } from '../components/postwrapper'
 
 export default () => (
   <Layout>
+    <PostWrapper>
     <h2>About Me</h2>
 
     <p>
@@ -55,5 +57,6 @@ export default () => (
     <p>
       If you would like to chat more, feel free to email me at samuel (dot) alebachew at gmail.
     </p>
+    </PostWrapper>
   </Layout>
 )
