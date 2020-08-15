@@ -1,13 +1,22 @@
 ---
-title: 'Modern Http Clients'
+title: 'How to build a modern http client'
 date: '2020-05-25'
 tags: ['Http', 'Microservice', 'REST', 'OpenApi']
 description: 'Does your team maintain various sdks or force client to write their own http integrations? No more'
 draft: true
 ---
 
+<!--details>
+<summary>TL;DR</summary>
+hi, my name is sam
+</details>
+<br/-->
+
 Before jumping into my opinionated guide to client generation, I'd first like to take a moment to explain breifly, what an http client *is*.
 In order to define this, let's break it down into two separate definitions (as silly as it may seem).
+
+<details>
+<summary>Expand for a basic summary of HTTP</summary>
 
 ### What is HTTP
 
@@ -32,13 +41,17 @@ There are many conventions and best practices to follow in order to build a well
 
 It can be daunting to started and follow best practices, but luckily there are many free frameworks that are available to help you get started. One of which is OpenApi.
 
-### What is a client
+</details>
+<br/>
 
-A client, in this context, is any application that communicates with a service over some protocol, like HTTP.
+### Expectations of a modern http client
 
-It should behoove service owners to ensure that their clients are set up for success to communicate with their service.
+An HTTP client is a library that facilitates in http communication with a given service.
+The http client should be published in any language needed, by the maintainers of the service it communicates with.
 
-Clients care about the following:
+> IMO: An HTTP client can and should also be used by the service owner in integration tests
+
+Modern clients care about the following:
 
 * In what environments (locations) does your service exist?
 * What are the endpoints / HTTP paths for these environments?
@@ -53,20 +66,7 @@ Clients care about the following:
 * What form of trace ID do you accept?
 * What are your SLAs for a given API?
 
-### What is an HTTP client
-
-An HTTP client is a library, written in a given language (i.e. java), that assists in RESTful http communiccation with a given service.
-The http client should be published by the maintainers of the service it communicates with.
-These libraries should answer some of the concerns listed above and provide hints/guidance for the rest.
-
-> Note: An HTTP client can and should also be used by the service owner in integration tests
-
-## Ways to create HTTP client
-
-At a high level, there are 2 main options for creating HTTP clients.
-
-1. Manually
-2. Using code generation
+### Why you shouldn't create a HTTP client manually
 
 Here is a pro/cons list to going with the `Manual` approach
 
@@ -76,17 +76,13 @@ Here is a pro/cons list to going with the `Manual` approach
 |                                             | You must implement libraries for each language you support |
 |                                             | You increase the risk of introducing bugs                  |
 
-### How to generate an HTTP client
+### Why you should generate an HTTP client with OpenAPI
 
 There are many tools available for code generation.
-
 A very popular one for generating HTTP clients is called OpenAPI
-
-### How to configure an HTTP client
 
 From the list of what clients care about, here are the questions that OpenAPI clients solve:
 
-* In what environments does your service exist?
 * What are the endpoints / HTTP paths for these environments?
   * The library should understand what system variables exist and should select the correct endpoint based on whether ENV=DEV/STG/PROD
 * What RESTful APIs exist, and what input do they accept?
