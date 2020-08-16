@@ -38,11 +38,8 @@ My goal in this article is to make clear, what the benefits are to structuring y
 ### api.yml
 
 This file is in reference to an [OpenApi specification](https://swagger.io/specification).
-
 This should be one of the first files you create in a new repo.
-
 You can think of the specification.yml as a REST contract that defines what your service is going to expose.
-
 A number of artifacts can be generated from the API specification:
 
 * A client SDK in [various languages](https://github.com/OpenAPITools/openapi-generator/tree/master/docs/generators)
@@ -53,15 +50,13 @@ A number of artifacts can be generated from the API specification:
 ### build.gradle
 
 Specific to my java example, gradle is the build-system in use here.
-
-Dependencies are declared in this file
+Dependencies are declared in this file.
 
 > check out the new [dependency locking feature](https://docs.gradle.org/current/userguide/dependency_locking.html)
 
 ### infra
 
-This directory holds the definition files for the underlying infrastructure that this service needs
-
+This directory holds the definition files for the underlying infrastructure that this service needs.
 For example, if you arre using terraform as the definition language to manage your AWS resources, you may have:
 
 ```default
@@ -93,7 +88,7 @@ Many dev-ops platforms like [GitHub](https://docs.github.com/en/actions) and [Gi
 
 This file defines how your service gets deployed through your environments, as well as how your service is deployed in a branch environment.
 
-this should also include how to deploy your infrastructure as well as publish any clients that are generated
+This should also include how to deploy your infrastructure as well as publish any clients that are generated
 
 ### src & test
 
@@ -104,7 +99,7 @@ this should also include how to deploy your infrastructure as well as publish an
 
 ### build/generated/src/java
 
-Source code that is generated from the api.yml for the service
+Source code that is generated from the api.yml for the service.
 
 Again, it is much better to rely on the `api.yml` file as the *source of truth*.
 If you do this, then there will be no inconsistency between your generated clients and the service's HTTP layer.

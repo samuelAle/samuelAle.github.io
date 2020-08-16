@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const PostWrapper = styled.div`
   margin: auto;
   padding: 30px;
-  max-width: 900px;
+  max-width: 90%;
   font-size: 16px;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
